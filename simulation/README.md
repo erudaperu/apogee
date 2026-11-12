@@ -1,10 +1,10 @@
 # Modelling and simulation
 
-I want a model that helps me ask better design questions and compare expected behavior with observations. I have not created or validated a simulation yet.
+I want a model that helps me design my physical rocket, ask better questions and compare expected behavior with observations. Simulation supports the build; it is not the project's final deliverable. I have not created or validated a simulation yet.
 
 ## My starting approach
 
-I will use [OpenRocket](https://openrocket.info/features.html) as an established model-rocketry design and simulation reference. Any small model I write myself will have a stated learning purpose and a comparison case; I will not present agreement with my own code as independent validation.
+I will begin by learning model-rocketry fundamentals and use [OpenRocket](https://openrocket.info/features.html) as an established design and simulation reference. Any small model I write myself will have a stated learning purpose and a comparison case; I will not present agreement with my own code as independent validation.
 
 ## Deliverables I plan to keep here
 

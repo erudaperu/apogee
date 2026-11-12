@@ -4,13 +4,17 @@
 
 **Stage:** planning.
 
-I started a documentation-first plan for a solo hardware and software project around an instrumented model rocket. My current direction connects modelling, mechanical packaging, avionics, firmware, ground software and offline analysis.
+I started a documentation-first plan to build my own instrumented model rocket around a certified commercial motor. The physical rocket is the objective from the start; simulation and bench testing are stages that support the build. My work will connect modelling, CAD, airframe and avionics packaging, electronics, firmware, ground software and offline analysis.
 
-**What exists:** this repository structure, a provisional scope, a milestone plan and a list of decisions to make.
+**What exists:** this repository structure, an accepted model-rocket scope, a milestone plan and a list of decisions to make.
+
+**My starting point:** I know CAD, have basic electronics experience that I want to improve, and have no rocketry experience yet. I can dedicate at least one hour a day, so I am planning around a minimum of seven hours a week.
 
 **What does not exist yet:** a built rocket, CAD model, assembled avionics, implemented flight firmware, working ground station, trained model, measured performance or flight results.
 
-**Next:** inventory my equipment, set the budget and time allocation, then define the first sensor record and replay use case.
+**Available access:** 3D printers and a soldering iron. I still need to confirm the exact development-board options and measurement tools. No controller or Raspberry Pi purchase has been selected, and no numeric budget is set.
+
+**Next:** learn model-rocketry fundamentals, identify local club guidance, confirm my equipment access and set the budget. Then I will connect the first physical concept to a sensor-record contract and replay use case.
 
 ## Template for the next entry
 

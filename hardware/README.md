@@ -1,6 +1,12 @@
 # Avionics and bench hardware
 
-I plan to build a sensor-logging assembly that gives the software real measurements to work with. I will begin with available development hardware and document what it can actually do before deciding whether a custom PCB is worthwhile.
+I plan to build the sensor-logging assembly for my model rocket and give the software real measurements to work with. My electronics experience is basic, so I will use bench work to improve it and verify each part before integration. I will begin by checking the development hardware I can access and document what it can do before deciding whether a custom PCB is worthwhile.
+
+## My current equipment position
+
+I have access to 3D printers and a soldering iron. I have not confirmed a multimeter, sensors or an exact development-board inventory. I will confirm exact controller candidates and compare them against the measurement requirements before buying. I have not selected or purchased a controller for this project, and the budget is still open.
+
+I will choose hardware from the measurement, logging and power requirements rather than build the requirements around a board name.
 
 ## Candidate functions
 

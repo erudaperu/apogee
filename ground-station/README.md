@@ -1,6 +1,6 @@
 # Ground software and replay
 
-I want a ground tool that makes a recording understandable without requiring the original hardware. Replay is my first software milestone because it gives the hardware and analysis work a stable interface.
+I want a ground tool that makes recordings from my model rocket understandable without requiring the original hardware. Replay is my first software milestone because it gives the physical build, avionics and analysis work a stable interface. I will use the same tool for synthetic records, bench tests and the planned flight recordings.
 
 ## My first user flow
 

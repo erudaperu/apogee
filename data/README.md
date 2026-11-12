@@ -1,6 +1,6 @@
 # Data and recording contracts
 
-I want every recording to explain where it came from and how to interpret it. I have not collected data for this project yet.
+I want every recording from my model-rocket project to explain where it came from and how to interpret it. One contract will connect synthetic scenarios, avionics bench tests and the planned flight observations. I have not collected data for this project yet.
 
 ## Proposed record fields
 
@@ -22,7 +22,7 @@ I plan to record firmware/software versions, configuration, calibration referenc
 
 ## Dataset organization
 
-I will keep synthetic fixtures, bench recordings and any later field observations in separate folders, each with a README. Each dataset will include:
+I will keep synthetic fixtures, bench recordings and field observations in separate folders, each with a README. Each dataset will include:
 
 - Its purpose, source and collection or generation method.
 - A small readable example and the exact schema version.

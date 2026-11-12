@@ -1,8 +1,8 @@
 # My project notebook
 
-I am starting **APOGEE**, a solo project that connects physical design, embedded electronics and software around an instrumented model rocket. APOGEE is a working name. This repository currently contains my project plan; I have not yet built or flown the system.
+I am starting **APOGEE**, a solo project to design and build my own instrumented model rocket around a certified commercial motor. I want to own the physical design, embedded electronics and software as one system. APOGEE is a working name. This repository currently contains my project plan; I have not yet built or flown the system.
 
-My first useful result will be a small, inspectable path from synthetic sensor records to a replayable ground display. I will develop the physical design and avionics alongside that software, then connect them through the same documented interfaces.
+I know CAD, have basic electronics experience that I want to improve, and am new to rocketry. I can dedicate at least one hour a day, so I am planning around a minimum of seven hours a week. My first phase combines rocketry fundamentals and local launch-club guidance with a physical concept, a sensor-data contract and a small replay tool. Simulation and bench testing are verification stages for the rocket I intend to build.
 
 ## Read in this order
 
@@ -24,7 +24,8 @@ My first useful result will be a small, inspectable path from synthetic sensor r
 
 ## References I will start from
 
+- [Canadian Association of Rocketry: model rocketry](https://www.canadianrocketry.org/en/regulations/model-rocketry) and [affiliated clubs](https://www.canadianrocketry.org/en/membership/affiliated-clubs): starting points for learning and finding local guidance. I have not selected a launch location or club, or established the requirements for a specific activity.
 - [OpenRocket features](https://openrocket.info/features.html): an existing model-rocketry design and simulation tool I can use as a reference rather than treating a new simulator as ground truth.
 - [NAR Model Rocket Safety Code](https://www.nar.org/ModelRocketSafetyCode): a hobby-rocketry reference that calls for certified, commercially made motors. It is not a substitute for checking requirements in the eventual launch jurisdiction.
 
-**Current status:** planning only. Budget, available tools, launch location and component choices are still open.
+**Current status:** planning only. I have access to 3D printers and a soldering iron. My budget, measurement tools, exact development-board availability, launch location and component choices are still open.

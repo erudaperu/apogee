@@ -4,9 +4,9 @@
 
 **My solo hardware + software project · in progress, starting with planning and requirements.**
 
-I want to build my own instrumented model rocket and understand the whole system: how I model it, design the physical assembly, collect measurements, write the firmware and make the data useful. I'm starting with simulation and a sensor test bench so I can build the hardware and software around the same evidence.
+I want to build my own instrumented model rocket and understand the whole system: how I model it, design the physical assembly, collect measurements, write the firmware and make the data useful. A commercially powered model rocket is the goal from the start. I will use simulation and a sensor test bench to make design decisions and check the system before flight.
 
-**APOGEE is my working title.** The scope below is my starting proposal. I still need to choose the budget, tools, components and eventual flight configuration. For a later model-rocket flight, I plan to use a certified commercial motor while focusing my own design work on the airframe, packaging, electronics and software.
+**APOGEE is my working title.** My scope is a model rocket using a certified commercial motor, with my own work focused on modelling, airframe design, packaging, electronics and software. I still need to choose the budget, tools, components and flight configuration.
 
 **[My roadmap](docs/roadmap/README.md)** · **[System architecture](docs/architecture/README.md)** · **[Open decisions](docs/decisions/README.md)** · **[Build journal](docs/journal/README.md)**
 
@@ -21,11 +21,15 @@ I want to build my own instrumented model rocket and understand the whole system
 
 I want the result to be more than a launch video. I want someone to be able to follow a measurement from the sensor through my firmware and into the ground tool, then understand where it agrees with the model and where it does not.
 
+<img src="assets/system-map.svg" alt="Proposed APOGEE architecture: model and CAD, rocket and sensors, firmware and logger, ground software and offline analysis" width="100%">
+
 ## Where I am now
 
 | Work | Status |
 | :--- | :--- |
 | Project brief, subsystem plans and milestone structure | Written — initial planning draft |
+| Model rocket with a certified commercial motor | Scope selected |
+| Daily work cadence | At least one hour a day |
 | Budget, equipment inventory and component selection | Open |
 | Simulation, CAD, electronics and firmware | Planned |
 | Ground station and analysis tools | Planned |
@@ -33,11 +37,15 @@ I want the result to be more than a launch video. I want someone to be able to f
 
 The illustration above is concept art. This repository currently contains my engineering plan, not a completed vehicle or runnable flight system.
 
+## My starting point
+
+I know CAD and basic electronics, and I'm new to rocketry. I have access to 3D printers and a soldering iron. I can commit at least an hour a day—about seven hours a week. I will use that time for a mix of learning, designing, building and recording what I find. My first phase includes model-rocketry fundamentals and identifying an appropriate local club or supervised launch route.
+
 ## My first milestone
 
-I will create a small synthetic sensor recording, define its units and quality flags, and build a replay tool that handles both valid and broken records. Alongside that, I will compare feasible controller/sensor combinations and sketch the avionics packaging.
+I will define a beginner-appropriate model-rocket concept and its constraints, then create a small synthetic sensor recording, define its units and quality flags, and build a replay tool that handles both valid and broken records. Alongside that, I will compare feasible controller/sensor combinations and sketch the avionics packaging.
 
-I will call that milestone complete when I can publish a reproducible demo, parser tests, a justified hardware shortlist and a packaging concept. The next milestone will connect the same data contract to real bench measurements.
+I will call that milestone complete when I can publish a reproducible demo, parser tests, a justified hardware shortlist, a model-rocket concept and a packaging concept. The next milestone will connect the same data contract to real bench measurements.
 
 ## My project map
 

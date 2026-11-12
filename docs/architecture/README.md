@@ -1,12 +1,16 @@
 # System architecture
 
-I am defining a measurement system with two development paths that meet at a shared data contract. This is a proposed architecture, not a diagram of working hardware.
+I am defining an instrumented model rocket with physical, embedded and ground-software development paths that meet at shared interfaces. I will use a certified commercial motor. This is a proposed architecture, not a diagram of working hardware.
+
+![My proposed APOGEE system architecture](../../assets/system-map.svg)
+
+*Planned system map; no subsystem is implemented yet.*
 
 ## Responsibilities
 
 | Part | What I want it to own | What I keep outside it |
 | --- | --- | --- |
-| Physical assembly | Packaging, access, mounting and documented mass properties | Data interpretation |
+| Physical assembly | My model-rocket airframe, avionics packaging, access, mounting and documented mass properties | Motor development and data interpretation |
 | Avionics | Sensors, power distribution and electrical interfaces | Ground visualization |
 | Firmware | Acquisition, timestamps, health flags and recording | AI decisions |
 | Ground software | Decode, inspect, replay and export records | Changing the original data |

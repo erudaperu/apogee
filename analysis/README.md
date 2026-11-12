@@ -1,6 +1,6 @@
 # Offline analysis and AI
 
-I want to use analysis to explain recordings and find data-quality problems. AI is a possible extension, not a feature I will claim before I have a useful task and an evaluation.
+I want to use analysis to explain recordings from my model rocket and find data-quality problems. I will develop the pipeline with synthetic and bench data before using flight observations. AI is a possible extension, not a feature I will claim before I have a useful task and an evaluation.
 
 ## First question
 

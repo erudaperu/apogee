@@ -1,6 +1,6 @@
 # Firmware
 
-I want small, testable firmware modules with an observable path from sensor input to recorded output. I have not implemented this firmware yet.
+I want small, testable firmware modules for my model rocket's instrumentation, with an observable path from sensor input to recorded output. I will verify them on the host and bench before integrating them into the physical model. I have not implemented this firmware yet.
 
 ## Proposed modules
 
