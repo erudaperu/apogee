@@ -6,7 +6,7 @@
 
 I want to build my own instrumented model rocket and understand the whole system: how I model it, design the physical assembly, collect measurements, write the firmware and make the data useful. A commercially powered model rocket is the goal from the start. I will use simulation and a sensor test bench to make design decisions and check the system before flight.
 
-**APOGEE is my working title.** My scope is a model rocket using a certified commercial motor, with my own work focused on modelling, airframe design, packaging, electronics and software. I still need to choose the budget, tools, components and flight configuration.
+**APOGEE is my working title.** My scope is a model rocket using a certified commercial motor, with my own work focused on modelling, airframe design, packaging, electronics and software. I will start with available equipment and free resources; sensors, a later spending ceiling and the flight configuration still need decisions.
 
 **[My roadmap](docs/roadmap/README.md)** · **[System architecture](docs/architecture/README.md)** · **[Open decisions](docs/decisions/README.md)** · **[Build journal](docs/journal/README.md)**
 
@@ -30,7 +30,8 @@ I want the result to be more than a launch video. I want someone to be able to f
 | Project brief, subsystem plans and milestone structure | Written — initial planning draft |
 | Model rocket with a certified commercial motor | Scope selected |
 | Daily work cadence | At least one hour a day |
-| Budget, equipment inventory and component selection | Open |
+| Starting resources | ESP8266, Jetson, soldering access and free uOttawa 3D printing |
+| Starting budget | No new purchases; later flight-build costs still open |
 | Simulation, CAD, electronics and firmware | Planned |
 | Ground station and analysis tools | Planned |
 | Bench measurements and flight results | Not performed |
@@ -39,7 +40,7 @@ The illustration above is concept art. This repository currently contains my eng
 
 ## My starting point
 
-I know CAD and basic electronics, and I'm new to rocketry. I have access to 3D printers and a soldering iron. I can commit at least an hour a day—about seven hours a week. I will use that time for a mix of learning, designing, building and recording what I find. My first phase includes model-rocketry fundamentals and identifying an appropriate local club or supervised launch route.
+I know CAD and basic electronics, and I'm new to rocketry. I have an ESP8266 and a Jetson available, soldering-iron access and free 3D printing at uOttawa. I can commit at least an hour a day—about seven hours a week. I will use that time for a mix of learning, designing, building and recording what I find. My first phase includes model-rocketry fundamentals and identifying an appropriate local club or supervised launch route.
 
 ## My first milestone
 
@@ -57,6 +58,7 @@ I will call that milestone complete when I can publish a reproducible demo, pars
 | [Roadmap](docs/roadmap/README.md) | Milestones, exit evidence and my first work session |
 | [Modelling](simulation/README.md) | Reference scenarios, assumptions and sensitivity comparisons |
 | [Mechanical design](mechanical/README.md) | CAD, packaging, drawings, mass properties and fit checks |
+| [Parts and budget](procurement/README.md) | Available resources, borrow-first gaps and spending decisions |
 | [Avionics](hardware/README.md) | Sensors, controller, power and bench measurements |
 | [Firmware](firmware/README.md) | Acquisition, recording, health flags and host tests |
 | [Ground software](ground-station/README.md) | Parsing, replay, inspection and export |

@@ -13,6 +13,7 @@ I know CAD, have basic electronics experience that I want to improve, and am new
 | [Roadmap](roadmap/README.md) | Choose the next milestone without promising a launch date |
 | [Decisions](decisions/README.md) | Record why I choose components and tools |
 | [Build journal](journal/README.md) | Separate completed work from next steps |
+| [Parts and budget](../procurement/README.md) | Reuse available equipment and identify what I can borrow before buying |
 | [Verification](../verification/README.md) | Plan how I will check each claim |
 
 ## My documentation rules
@@ -28,4 +29,4 @@ I know CAD, have basic electronics experience that I want to improve, and am new
 - [OpenRocket features](https://openrocket.info/features.html): an existing model-rocketry design and simulation tool I can use as a reference rather than treating a new simulator as ground truth.
 - [NAR Model Rocket Safety Code](https://www.nar.org/ModelRocketSafetyCode): a hobby-rocketry reference that calls for certified, commercially made motors. It is not a substitute for checking requirements in the eventual launch jurisdiction.
 
-**Current status:** planning only. I have access to 3D printers and a soldering iron. My budget, measurement tools, exact development-board availability, launch location and component choices are still open.
+**Current status:** planning only. I have an ESP8266 and a Jetson available, soldering-iron access and free 3D printing at uOttawa. My starting budget plan is zero new purchases. Board variants/accessories, measurement tools, sensors, a later spending ceiling and the launch location still need decisions.

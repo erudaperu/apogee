@@ -1,8 +1,8 @@
 # My roadmap
 
-I am building toward a physical model rocket with a certified commercial motor, my own design work and an inspectable instrumentation system. I can dedicate at least one hour a day, so I will plan around **seven hours a week minimum**. I have not assigned a launch date or a budget.
+I am building toward a physical model rocket with a certified commercial motor, my own design work and an inspectable instrumentation system. I can dedicate at least one hour a day, so I will plan around **seven hours a week minimum**. I have not assigned a launch date. I will begin with a zero-purchase phase using available and free resources.
 
-I know CAD, have basic electronics experience and am new to rocketry. I have access to 3D printers and a soldering iron. My first phase is therefore learning and scope definition, with hardware and software developed together from the start.
+I know CAD, have basic electronics experience and am new to rocketry. I have an ESP8266 and a Jetson available, access to a soldering iron, and free 3D-printer access at uOttawa. My first phase is therefore learning and scope definition, with hardware and software developed together from the start.
 
 | Milestone | Hardware / physical work | Software work | Exit evidence |
 | --- | --- | --- | --- |
@@ -21,7 +21,7 @@ I will use these as roughly one-hour starting blocks and carry unfinished work i
 
 - [ ] **Session 1:** Read established model-rocketry fundamentals and record the terms and design questions I need to understand.
 - [ ] **Session 2:** Find a suitable local club or experienced supervisor, and establish the requirements for the eventual launch location.
-- [ ] **Session 3:** Document the 3D-printer and soldering-iron access, confirm exact board and measurement-tool availability, and set a budget ceiling before selecting parts.
+- [ ] **Session 3:** Check the ESP8266 and Jetson variants and accessories, confirm borrowable sensors and a multimeter, and follow my reuse-first parts plan before considering purchases.
 - [ ] **Session 4:** Sketch the first rocket concept and identify what needs review before I commit to dimensions or components.
 - [ ] **Session 5:** Define the initial measurements, units and quality flags; draft one example data record.
 - [ ] **Session 6:** Outline the parser and replay behavior, including a missing-sample case.

@@ -12,7 +12,7 @@ I started a documentation-first plan to build my own instrumented model rocket a
 
 **What does not exist yet:** a built rocket, CAD model, assembled avionics, implemented flight firmware, working ground station, trained model, measured performance or flight results.
 
-**Available access:** 3D printers and a soldering iron. I still need to confirm the exact development-board options and measurement tools. No controller or Raspberry Pi purchase has been selected, and no numeric budget is set.
+**Available resources:** an ESP8266 and a Jetson, access to a soldering iron, and free 3D printers at uOttawa. My starting phase uses the equipment I can access and the resources that are free. I will confirm board variants, accessories, sensors and measurement tools. No new purchase or flight computer has been selected.
 
 **Next:** learn model-rocketry fundamentals, identify local club guidance, confirm my equipment access and set the budget. Then I will connect the first physical concept to a sensor-record contract and replay use case.
 

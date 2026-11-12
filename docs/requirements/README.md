@@ -26,8 +26,8 @@ All requirements below are **planned**. None is claimed as implemented or verifi
 
 ## Decisions I have not made
 
-- My budget ceiling and how I divide the weekly sessions between learning, hardware and software.
-- Which measurement tools, development boards and sensors I can use. I have confirmed access to 3D printers and a soldering iron; that access does not imply ownership.
+- A later spending ceiling, after the zero-purchase starting phase, and how I divide sessions between learning, hardware and software.
+- Exact variants/accessories for the available ESP8266 and Jetson, plus sensors and measurement tools I can borrow. Free 3D printing at uOttawa and soldering-iron access are confirmed.
 - Which CAD tool I will use and which parts are suitable for the 3D-printing access I have, versus sourcing them another way.
 - A beginner-appropriate physical configuration and a supervised route to the first flight.
 - Which telemetry transport I need after wired replay works.

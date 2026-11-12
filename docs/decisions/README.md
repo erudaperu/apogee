@@ -11,11 +11,13 @@ I use this log to preserve reasoning, especially when a choice affects both soft
 | D-005 | What is the first ground interface? | Proposed | Recorded files or a wired link before wireless |
 | D-006 | Where does AI belong? | Proposed | Offline analysis, evaluated against a simple baseline |
 | D-007 | How much time can I dedicate? | Accepted | At least one hour a day; a minimum planned cadence of seven hours a week |
-| D-008 | What are my budget and equipment limits? | Open | Set a budget and confirm measurement tools and exact board availability before selecting parts |
+| D-008 | What are my budget and equipment limits? | Open | Start with available/free resources; set a spending ceiling before any purchases |
 | D-009 | How do I account for my starting experience? | Accepted | Use my CAD familiarity, improve basic electronics skills, and learn rocketry fundamentals with established references and local guidance |
-| D-010 | What workshop access is confirmed? | Accepted | I have access to 3D printers and a soldering iron; ownership is not implied |
+| D-011 | What should I spend now? | Accepted | Start with what I have and what is free; no new purchases in the starting phase |
+| D-012 | How do I use the available boards? | Proposed | ESP8266 for bench acquisition; Jetson for ground-side replay/analysis; validate before flight selection |
+| D-010 | What workshop access is confirmed? | Accepted | Free 3D-printer access at uOttawa and access to a soldering iron; ownership is not implied |
 
-The controller shortlist is still open. I need to confirm which boards I can access and compare their interfaces, power requirements, logging support and development tools against my first requirements. I have not selected or purchased a controller.
+I have an **ESP8266 and a Jetson available**. I will confirm their exact board variants and existing accessories before connecting hardware. My starting allocation is ESP8266 bench acquisition and Jetson ground-side analysis; flight suitability remains unverified. I will use the computer already available for software work if the Jetson needs missing accessories. I have not selected a flight computer or authorized new purchases.
 
 These accepted scope and time decisions reflect my starting direction as of **2026-11-12**. They do not imply that the design has been reviewed or that any hardware or software is complete.
 

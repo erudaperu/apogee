@@ -4,7 +4,11 @@ I plan to build the sensor-logging assembly for my model rocket and give the sof
 
 ## My current equipment position
 
-I have access to 3D printers and a soldering iron. I have not confirmed a multimeter, sensors or an exact development-board inventory. I will confirm exact controller candidates and compare them against the measurement requirements before buying. I have not selected or purchased a controller for this project, and the budget is still open.
+I have an ESP8266 and a Jetson available, plus access to a soldering iron and free 3D printing at uOttawa. My starting constraint is to reuse these resources and free software. I still need to confirm the exact board variants, working cables/power supplies, sensors and access to a multimeter.
+
+My starting allocation is the **ESP8266 for bench acquisition and protocol experiments**, and the **Jetson for ground-side replay or offline analysis** if its existing setup is usable. These are development roles, not claims of flight suitability. I will choose flight instrumentation only after the requirements and bench evidence justify it. I do not need a Raspberry Pi purchase to begin.
+
+My [reuse-first parts and budget plan](../procurement/README.md) separates the zero-purchase starting phase from the still-unpriced physical flight build.
 
 I will choose hardware from the measurement, logging and power requirements rather than build the requirements around a board name.
 
@@ -40,4 +44,4 @@ These are proposed functions. I have not selected parts or built an electrical d
 
 I will include a setup photo, connection documentation, firmware version, input conditions, expected behavior, observed behavior and limitations for each bench result. Hardware photographs will show what I built; they will not stand in for measurement evidence.
 
-**Current status:** planned. No board, sensor, PCB or wiring design has been selected or verified.
+**Current status:** planned. The available boards have proposed development roles; no sensor, PCB, wiring design or flight computer is selected or verified.
