@@ -2,7 +2,7 @@
 
 **My solo hardware + software project · planning and requirements**
 
-<img src="assets/apogee-blueprint-v6.svg" alt="APOGEE conceptual model-rocket system blueprint — planned project, not a built vehicle" width="100%">
+<img src="assets/apogee-blueprint-v7.svg" alt="APOGEE conceptual blueprint showing the planned airframe, avionics and data flow — not a built vehicle" width="100%">
 
 <sub>Concept diagram for my planned model rocket.</sub>
 

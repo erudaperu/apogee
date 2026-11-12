@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title description">
+  <title id="title">APOGEE — conceptual model rocket and planned instrumentation</title>
+  <desc id="description">An editable engineering illustration of a planned model rocket. The external elevation identifies its nose cone, airframe, fins, conceptual avionics bay and external commercial-motor interface. A separate planned data-flow diagram connects sensor acquisition, firmware and logging, ground replay, and offline analysis. Concept only, not to scale. No propulsion internals, dimensions, built hardware or flight performance are depicted.</desc>
+  <defs>
+    <radialGradient id="paper" cx="66%" cy="37%" r="83%">
+      <stop stop-color="#172d40"/>
+      <stop offset="0.56" stop-color="#102132"/>
+      <stop offset="1" stop-color="#0b1523"/>
+    </radialGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#d8ece5" stop-opacity="0.05"/>
+      <stop offset="0.48" stop-color="#d8ece5" stop-opacity="0.01"/>
+      <stop offset="1" stop-color="#7de2ca" stop-opacity="0.085"/>
+    </linearGradient>
+    <pattern id="section-hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(-40)">
+      <path d="M0 0V12" stroke="#9fc7ca" stroke-opacity="0.31" stroke-width="1"/>
+    </pattern>
+    <pattern id="light-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
+      <path d="M0 0V8" stroke="#7de2ca" stroke-opacity="0.28" stroke-width="1"/>
+    </pattern>
+    <marker id="flow-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#7de2ca" stroke-width="1.3" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .type{font-family:Arial,Helvetica,sans-serif;fill:#edf1e8}
+      .label{font-size:29px;letter-spacing:2.6px;font-weight:500}
+      .support{font-size:20px;letter-spacing:1.7px;fill:#92adbb}
+      .flow-caption{font-size:23px;letter-spacing:1px;fill:#b6cbd1}
+      .drawing{fill:none;stroke:#dceee8;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+      .secondary{fill:none;stroke:#86a6b8;stroke-width:1.35;stroke-linejoin:round;stroke-linecap:round}
+      .accent{fill:none;stroke:#7de2ca;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+      .guide{fill:none;stroke:#6c8c9f;stroke-width:1.35;stroke-linejoin:round;stroke-linecap:round}
+      .node{fill:#7de2ca}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#paper)"/>
+  <path d="M35 65V35H65M1535 35H1565V65M1565 935V965H1535M65 965H35V935" fill="none" stroke="#466577" stroke-width="1.2"/>
+
+  <g id="masthead">
+    <text class="type" x="66" y="128" font-size="100" font-weight="700" letter-spacing="-4">APOGEE</text>
+    <text class="type" x="70" y="166" font-size="22" letter-spacing="2.2" fill-opacity="0.8">MODEL ROCKET / SOFTWARE + AVIONICS</text>
+    <path d="M1111 72H1530" stroke="#7de2ca" stroke-width="2"/>
+    <text class="type" x="1111" y="107" font-size="24" letter-spacing="1.9">CONCEPT / PLANNED</text>
+    <text class="type support" x="1111" y="139">NOT TO SCALE</text>
+    <path d="M70 198H1530" stroke="#2e4c60" stroke-width="1"/>
+  </g>
+
+  <!-- External side elevation only. The translucent avionics detail is a
+       conceptual package, not a fabricated or dimensioned engineering part. -->
+  <g id="rocket-elevation" transform="rotate(-7 900 410)">
+    <path class="guide" d="M313 410H1470" stroke-dasharray="21 9 3 9" opacity="0.48"/>
+
+    <g id="fins">
+      <path d="M407 360L367 274H420L624 360ZM407 460L367 546H420L624 460Z" fill="url(#section-hatch)"/>
+      <path class="drawing" d="M407 360L367 274H420L624 360M407 460L367 546H420L624 460"/>
+      <path class="secondary" d="M416 352L382 285H418L585 352M416 468L382 535H418L585 468"/>
+      <path class="secondary" d="M430 351H581M430 469H581M400 322L509 352M400 498L509 468" opacity="0.75"/>
+    </g>
+
+    <g id="external-airframe">
+      <path d="M386 360H1210C1269 360 1370 385 1437 410C1370 435 1269 460 1210 460H386Z" fill="url(#shell)"/>
+      <path class="drawing" d="M386 360H1210C1269 360 1370 385 1437 410C1370 435 1269 460 1210 460H386Z"/>
+      <path class="secondary" d="M400 369H1208C1266 369 1355 389 1415 410C1355 431 1266 451 1208 451H400ZM400 360V460"/>
+      <path class="secondary" d="M425 375H953M425 445H953" opacity="0.8"/>
+      <path class="secondary" d="M720 360V460M727 360V460" opacity="0.7"/>
+      <path class="guide" d="M393 397H574L606 410L574 423H393" opacity="0.8"/>
+      <path d="M389 365H399V455H389Z" fill="url(#light-hatch)"/>
+      <path class="drawing" d="M385 369H378V451H385"/>
+    </g>
+
+    <g id="nose-cone">
+      <path class="drawing" d="M1210 360V460"/>
+      <path class="secondary" d="M1201 361V459M1218 361V459"/>
+      <path class="secondary" d="M1226 375C1282 376 1346 391 1394 410C1346 429 1282 444 1226 445"/>
+      <path class="guide" d="M1232 410H1415" stroke-dasharray="11 8" opacity="0.55"/>
+    </g>
+
+    <g id="conceptual-avionics-bay">
+      <rect x="967" y="368" width="207" height="84" rx="3" fill="#7de2ca" fill-opacity="0.05" stroke="#7de2ca" stroke-width="1.8" stroke-dasharray="8 5"/>
+      <path class="accent" d="M978 363V355M1163 363V355M978 457V465M1163 457V465"/>
+      <path class="secondary" d="M982 378H1158M982 442H1158M985 374V446M1155 374V446"/>
+      <rect x="995" y="382" width="145" height="56" rx="2" fill="#153943" stroke="#7de2ca" stroke-width="2"/>
+      <rect class="accent" x="1024" y="394" width="34" height="34"/>
+      <rect class="accent" x="1084" y="390" width="22" height="17"/>
+      <rect class="secondary" x="1117" y="390" width="14" height="12"/>
+      <path class="accent" d="M1031 388V394M1039 388V394M1047 388V394M1031 428V434M1039 428V434M1047 428V434M1018 401H1024M1018 410H1024M1018 419H1024M1058 401H1073V397H1084M1058 410H1094V407M1058 419H1074V430H1129M1106 397H1117M1105 413H1129V421H1114" stroke-width="1.3"/>
+      <path class="secondary" d="M1005 397V425M1011 397V425M1118 432H1122M1127 432H1131"/>
+      <circle class="node" cx="1003" cy="390" r="2.3"/>
+      <circle class="node" cx="1132" cy="430" r="2.3"/>
+      <path class="accent" d="M1140 405H1153M1140 413H1153M1140 421H1153" stroke-width="1.4"/>
+    </g>
+  </g>
+
+  <!-- Annotation leaders attach to visible exterior features. -->
+  <g id="elevation-callouts">
+    <text class="type label" x="86" y="301">FINS</text>
+    <path class="guide" d="M86 316H244L385 358"/>
+    <circle cx="385" cy="358" r="4" fill="#dceee8"/>
+
+    <text class="type label" x="724" y="278">AIRFRAME</text>
+    <path class="guide" d="M724 293H858L887 359"/>
+    <circle cx="887" cy="359" r="4" fill="#dceee8"/>
+
+    <text class="type label" x="1246" y="257">NOSE CONE</text>
+    <path class="guide" d="M1246 272H1357L1372 351"/>
+    <circle cx="1372" cy="351" r="4" fill="#dceee8"/>
+
+    <text class="type label" x="1154" y="543">AVIONICS BAY</text>
+    <text class="type support" x="1154" y="576">CONCEPTUAL PACKAGE</text>
+    <path class="accent" d="M1154 556H1107L1075 435"/>
+    <circle class="node" cx="1075" cy="435" r="4.3"/>
+
+    <text class="type label" x="72" y="598">COMMERCIAL</text>
+    <text class="type label" x="72" y="633">MOTOR INTERFACE</text>
+    <text class="type support" x="72" y="660">EXTERNAL ONLY</text>
+    <path class="guide" d="M72 570H235L380 474"/>
+    <circle cx="380" cy="474" r="4" fill="#dceee8"/>
+  </g>
+
+  <!-- The instrumentation schematic is a planned architecture, not a claim
+       of implemented hardware, acquired signals, tested code, or flight data. -->
+  <g id="planned-instrumentation">
+    <path d="M70 686H1530" stroke="#3d6072" stroke-width="1.3"/>
+    <path d="M70 686H404" stroke="#7de2ca" stroke-width="2.2"/>
+    <text class="type" x="70" y="725" font-size="24" letter-spacing="2.4">PLANNED INSTRUMENTATION &amp; DATA FLOW</text>
+    <path class="accent" d="M1043 455L1054 585V649H802V686" stroke-dasharray="7 8" opacity="0.64"/>
+    <circle class="node" cx="802" cy="686" r="3.5"/>
+
+    <g id="sensor-acquisition" transform="translate(72 761)">
+      <text class="type label" y="28">SENSOR</text>
+      <text class="type label" y="62">ACQUISITION</text>
+      <g transform="translate(36 89)">
+        <path class="secondary" d="M0 28H13M0 44H13M0 60H13"/>
+        <path class="accent" d="M16 28H27L34 19L43 38L52 28H65M16 44H27L34 37L43 52L52 44H65M16 60H27L34 50L43 69L52 60H65"/>
+        <path class="secondary" d="M72 13V75"/>
+        <rect class="drawing" x="88" y="16" width="62" height="56" rx="2"/>
+        <path class="accent" d="M103 30H134V58H103ZM96 24H99M96 64H99M139 24H142M139 64H142"/>
+        <path class="secondary" d="M81 28H88M81 44H88M81 60H88M150 28H157M150 44H157M150 60H157"/>
+      </g>
+      <text class="type flow-caption" y="205">SAMPLE + TIMESTAMP</text>
+    </g>
+
+    <g id="firmware-logger" transform="translate(451 761)">
+      <text class="type label" y="28">FIRMWARE</text>
+      <text class="type label" y="62">/ LOGGER</text>
+      <g transform="translate(33 89)">
+        <rect class="drawing" x="7" y="9" width="70" height="70" rx="3"/>
+        <rect class="accent" x="23" y="25" width="38" height="38"/>
+        <path class="accent" d="M34 35L28 44L34 53M50 35L56 44L50 53M45 33L39 55" stroke-width="1.6"/>
+        <path class="secondary" d="M19 0V9M35 0V9M51 0V9M67 0V9M19 79V88M35 79V88M51 79V88M67 79V88M0 21H7M0 37H7M0 53H7M0 69H7M77 21H86M77 37H86M77 53H86M77 69H86"/>
+        <path class="accent" d="M86 44H104V21H122M104 44H122M104 44V67H122"/>
+        <path class="secondary" d="M129 13H172V29H129ZM129 36H172V52H129ZM129 59H172V75H129Z"/>
+        <path class="accent" d="M135 21H163M135 44H156M135 67H163" stroke-width="1.4"/>
+      </g>
+      <text class="type flow-caption" y="205">BUFFER + RECORD</text>
+    </g>
+
+    <g id="ground-replay" transform="translate(830 761)">
+      <text class="type label" y="28">GROUND</text>
+      <text class="type label" y="62">REPLAY</text>
+      <g transform="translate(18 89)">
+        <rect class="drawing" width="164" height="94" rx="4"/>
+        <path class="secondary" d="M0 18H164M98 29V65M17 78H148"/>
+        <circle class="node" cx="11" cy="9" r="2"/>
+        <circle cx="20" cy="9" r="2" fill="#86a6b8"/>
+        <path class="accent" d="M17 33L25 40L17 47M34 47H66M17 59H78M112 32L137 47L112 62Z"/>
+        <circle cx="57" cy="78" r="4" fill="#7de2ca"/>
+        <path class="accent" d="M17 78H57"/>
+      </g>
+      <text class="type flow-caption" y="205">PARSE + VISUALIZE</text>
+    </g>
+
+    <g id="offline-analysis" transform="translate(1209 761)">
+      <text class="type label" y="28">OFFLINE</text>
+      <text class="type label" y="62">ANALYSIS</text>
+      <g transform="translate(15 89)">
+        <path class="drawing" d="M9 6V85H179"/>
+        <path class="secondary" d="M2 27H9M2 51H9M2 75H9M42 85V92M82 85V92M122 85V92M162 85V92"/>
+        <path class="secondary" d="M22 65L49 58L75 64L102 38L128 45L157 18L175 28" stroke-dasharray="6 5"/>
+        <path class="accent" d="M22 72L49 63L75 57L102 43L128 36L157 25L175 21"/>
+        <circle class="node" cx="22" cy="72" r="3"/><circle class="node" cx="75" cy="57" r="3"/><circle class="node" cx="128" cy="36" r="3"/><circle class="node" cx="175" cy="21" r="3"/>
+      </g>
+      <text class="type flow-caption" y="205">COMPARE + VERIFY</text>
+    </g>
+
+    <path class="accent" d="M299 894H423" marker-end="url(#flow-arrow)"/>
+    <path class="accent" d="M678 894H802" marker-end="url(#flow-arrow)"/>
+    <path class="accent" d="M1057 894H1181" marker-end="url(#flow-arrow)"/>
+  </g>
+</svg>
