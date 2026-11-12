@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700" role="img" aria-labelledby="title description">
+  <title id="title">APOGEE — model rocket / software + avionics</title>
+  <desc id="description">A conceptual engineering drawing of a model rocket exterior and avionics bay, linked to firmware and ground software. Concept and planning stage; no dimensions or flight performance are represented.</desc>
+  <defs>
+    <radialGradient id="paper" cx="63%" cy="43%" r="78%">
+      <stop offset="0" stop-color="#142b40"/>
+      <stop offset="0.58" stop-color="#101e30"/>
+      <stop offset="1" stop-color="#0b1422"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#dceee8" stop-opacity="0.045"/>
+      <stop offset="0.55" stop-color="#dceee8" stop-opacity="0.01"/>
+      <stop offset="1" stop-color="#7de2ca" stop-opacity="0.075"/>
+    </linearGradient>
+    <pattern id="fin-hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(-40)">
+      <path d="M0 0V12" stroke="#9fc7ca" stroke-opacity="0.26" stroke-width="1"/>
+    </pattern>
+    <style>
+      .type{font-family:Arial,Helvetica,sans-serif;fill:#edf1e8}
+      .label{font-size:27px;letter-spacing:3.4px;font-weight:500}
+      .drawing{fill:none;stroke:#dceee8;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+      .secondary{fill:none;stroke:#7e9cae;stroke-width:1.3;stroke-linejoin:round;stroke-linecap:round}
+      .accent{fill:none;stroke:#7de2ca;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+      .guide{fill:none;stroke:#6c8c9f;stroke-width:1.3;stroke-linecap:round}
+    </style>
+  </defs>
+
+  <rect width="1400" height="700" fill="url(#paper)"/>
+  <path d="M36 64V36H64M1336 36H1364V64M1364 636V664H1336M64 664H36V636" fill="none" stroke="#466577" stroke-width="1.2"/>
+
+  <text class="type" x="64" y="133" font-size="100" font-weight="700" letter-spacing="-4">APOGEE</text>
+  <text class="type" x="68" y="172" font-size="21" letter-spacing="2.2" fill-opacity="0.78">MODEL ROCKET / SOFTWARE + AVIONICS</text>
+  <path d="M1044 68H1328" stroke="#7de2ca" stroke-width="2"/>
+  <text class="type" x="1044" y="100" font-size="20" letter-spacing="1.5" fill="#7de2ca">CONCEPT / PLANNING</text>
+
+  <!-- Exterior side elevation. The highlighted bay is conceptual avionics,
+       not a manufactured part or a drawing of propulsion internals. -->
+  <g transform="rotate(-12 760 338)">
+    <path class="guide" d="M293 338H1195" stroke-dasharray="18 8 3 8" opacity="0.45"/>
+
+    <path d="M360 290L336 214H382L535 290ZM360 386L336 462H382L535 386Z" fill="url(#fin-hatch)"/>
+    <path class="drawing" d="M360 290L336 214H382L535 290M360 386L336 462H382L535 386"/>
+    <path class="secondary" d="M367 283L349 226H379L501 283M367 393L349 450H379L501 393"/>
+
+    <path d="M350 290H1000C1055 290 1129 316 1171 338C1129 360 1055 386 1000 386H350Z" fill="url(#body)"/>
+    <path class="drawing" d="M350 290H1000C1055 290 1129 316 1171 338C1129 360 1055 386 1000 386H350Z"/>
+    <path class="secondary" d="M363 298H999C1052 298 1117 319 1155 338C1117 357 1052 378 999 378H363ZM995 290V386M1003 291V385M363 290V386"/>
+    <path class="secondary" d="M389 304H768M389 372H768" opacity="0.65"/>
+    <path class="guide" d="M350 325H520L550 338L520 351H350" opacity="0.75"/>
+
+    <rect x="804" y="300" width="145" height="76" rx="3" fill="#7de2ca" fill-opacity="0.055" stroke="#7de2ca" stroke-width="1.8" stroke-dasharray="7 5"/>
+    <rect class="accent" x="824" y="311" width="105" height="54" rx="2"/>
+    <rect class="accent" x="848" y="321" width="33" height="33"/>
+    <path class="accent" d="M855 315V321M863 315V321M871 315V321M855 354V360M863 354V360M871 354V360M842 329H848M842 337H848M842 345H848M881 329H897V319H921M881 337H909V357H921M881 345H899V353" stroke-width="1.3"/>
+    <circle cx="833" cy="320" r="2.5" fill="#7de2ca"/>
+    <circle cx="920" cy="356" r="2.5" fill="#7de2ca"/>
+    <path class="accent" d="M813 291V284M941 291V284M813 385V392M941 385V392"/>
+  </g>
+
+  <!-- Callouts are direct and readable at half size. -->
+  <text class="type label" x="754" y="223">AIRFRAME</text>
+  <path class="guide" d="M754 236H884L932 266"/>
+  <circle cx="932" cy="266" r="3.6" fill="#dceee8"/>
+
+  <text class="type label" x="1084" y="451">AVIONICS</text>
+  <path class="accent" d="M1084 463H1031L916 361"/>
+  <circle cx="916" cy="361" r="4" fill="#7de2ca"/>
+
+  <!-- System relationship: conceptual avionics → firmware → ground software.
+       No data-rate, protocol, sensor or performance claim is made. -->
+  <path class="accent" d="M835 374L772 450H740V501" stroke-dasharray="7 7" opacity="0.8"/>
+  <circle cx="835" cy="374" r="4" fill="#7de2ca"/>
+
+  <g transform="translate(706 502)">
+    <rect width="68" height="68" rx="3" fill="#122a3a" stroke="#c8e7dd" stroke-width="2.3"/>
+    <rect class="accent" x="15" y="15" width="38" height="38"/>
+    <path class="secondary" d="M12 -9V0M26 -9V0M42 -9V0M56 -9V0M12 68V77M26 68V77M42 68V77M56 68V77M-9 12H0M-9 26H0M-9 42H0M-9 56H0M68 12H77M68 26H77M68 42H77M68 56H77"/>
+    <path class="accent" d="M26 27L20 34L26 41M42 27L48 34L42 41M36 25L32 43" stroke-width="1.7"/>
+  </g>
+  <text class="type label" x="660" y="617">FIRMWARE</text>
+
+  <path class="accent" d="M696 536H676V574H291V511H267"/>
+  <circle cx="550" cy="574" r="3.2" fill="#7de2ca"/>
+  <circle cx="267" cy="511" r="3.2" fill="#7de2ca"/>
+
+  <g transform="translate(108 450)">
+    <rect width="153" height="104" rx="5" fill="#102333" stroke="#c8e7dd" stroke-width="2.3"/>
+    <path class="secondary" d="M0 20H153M58 104V116M95 104V116M40 117H113"/>
+    <circle cx="11" cy="10" r="2" fill="#7de2ca"/>
+    <circle cx="20" cy="10" r="2" fill="#728f9d"/>
+    <path class="accent" d="M17 38L24 44L17 50M33 50H57M17 68H80M17 80H66" stroke-width="1.8"/>
+    <path class="secondary" d="M104 39H135M104 50H128M104 61H135M104 72H121M104 83H132"/>
+    <path class="secondary" d="M92 36V86" opacity="0.5"/>
+  </g>
+  <text class="type label" x="66" y="617">GROUND SOFTWARE</text>
+
+  <path d="M64 651H1336" stroke="#375568" stroke-width="1"/>
+  <path d="M64 651H342" stroke="#7de2ca" stroke-width="2"/>
+  <path d="M1294 566V597M1279 581H1310" stroke="#4b7082" stroke-width="1.2"/>
+</svg>

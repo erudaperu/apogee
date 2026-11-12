@@ -2,9 +2,9 @@
 
 **My solo hardware + software project · planning and requirements**
 
-<img src="assets/apogee-cover-v5.png" alt="APOGEE model-rocket concept artwork — planned project, not a built vehicle" width="100%">
+<img src="assets/apogee-blueprint-v6.svg" alt="APOGEE conceptual model-rocket system blueprint — planned project, not a built vehicle" width="100%">
 
-<sub>Concept art for my planned model rocket.</sub>
+<sub>Concept diagram for my planned model rocket.</sub>
 
 I'm developing **APOGEE** as an instrumented model-rocket project that connects mechanical design, electronics and software. I want to follow a measurement from the sensor through my firmware and into the ground tool, then compare the result with the model behind it.
 
