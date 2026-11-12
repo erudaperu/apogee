@@ -16,6 +16,12 @@ I started a documentation-first plan to build my own instrumented model rocket a
 
 **Next:** learn model-rocketry fundamentals, identify local club guidance, confirm my equipment access and set the budget. Then I will connect the first physical concept to a sensor-record contract and replay use case.
 
+## 2026-11-12 — Coding as a project goal
+
+I added a coding learning track because I want APOGEE to improve how I write, debug and explain software. My main coding priority is C/C++ and embedded firmware, with Python alongside it for tests, replay and analysis. I will attempt the core exercises myself, use hints and reviews when needed, and record both working behavior and what I understand.
+
+**What exists:** the learning plan and exercise specifications. **What remains planned:** implementations, tests and learning assessments.
+
 ## Template for the next entry
 
 ```text
@@ -27,6 +33,8 @@ What I completed:
 Evidence: commit, test output, photo, dataset or drawing
 What failed or surprised me:
 What I learned:
+Code I can now explain or change independently:
+Help or external examples I used:
 What I will do next:
 ```
 

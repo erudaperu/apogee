@@ -1,6 +1,4 @@
-<img src="assets/hero.svg" alt="APOGEE — my solo rocket systems project. Planning and requirements; illustration is conceptual." width="100%">
-
-# APOGEE
+<img src="assets/project-wordmark.svg" alt="APOGEE — my model rocket and coding lab. Planning and requirements." width="100%">
 
 **My solo hardware + software project · in progress, starting with planning and requirements.**
 
@@ -8,7 +6,7 @@ I want to build my own instrumented model rocket and understand the whole system
 
 **APOGEE is my working title.** My scope is a model rocket using a certified commercial motor, with my own work focused on modelling, airframe design, packaging, electronics and software. I will start with available equipment and free resources; sensors, a later spending ceiling and the flight configuration still need decisions.
 
-**[My roadmap](docs/roadmap/README.md)** · **[System architecture](docs/architecture/README.md)** · **[Open decisions](docs/decisions/README.md)** · **[Build journal](docs/journal/README.md)**
+**[My coding track](learning/README.md)** · **[My roadmap](docs/roadmap/README.md)** · **[System architecture](docs/architecture/README.md)** · **[Open decisions](docs/decisions/README.md)** · **[Build journal](docs/journal/README.md)**
 
 ## What I'm working toward
 
@@ -36,7 +34,13 @@ I want the result to be more than a launch video. I want someone to be able to f
 | Ground station and analysis tools | Planned |
 | Bench measurements and flight results | Not performed |
 
-The illustration above is concept art. This repository currently contains my engineering plan, not a completed vehicle or runnable flight system.
+This repository currently contains my engineering and learning plan. I have not built the vehicle or implemented the flight system yet.
+
+## How I will get better at coding
+
+I want this project to make me a stronger programmer, especially in **C/C++ and embedded firmware**. I will use **Python for tests, replay and analysis**, working across both languages through the same data contract. My [coding track](learning/README.md) gives me small exercises, expected behaviours and a one-hour practice format.
+
+I will attempt the core features myself, use hints and code review when I get stuck, and keep evidence that I can explain, debug and change my implementation. The exercises are specifications for me to work through, not completed solutions.
 
 ## My starting point
 
@@ -52,6 +56,7 @@ I will call that milestone complete when I can publish a reproducible demo, pars
 
 | Area | What I am defining here |
 | :--- | :--- |
+| [Coding track](learning/README.md) | C/C++ and Python exercises, practice sessions and learning evidence |
 | [Project notebook](docs/README.md) | How I organize the work and record evidence |
 | [Requirements](docs/requirements/README.md) | What the first version must do and how I will check it |
 | [Architecture](docs/architecture/README.md) | Subsystems, responsibilities and interfaces |

@@ -2,6 +2,12 @@
 
 I want small, testable firmware modules for my model rocket's instrumentation, with an observable path from sensor input to recorded output. I will verify them on the host and bench before integrating them into the physical model. I have not implemented this firmware yet.
 
+## How I will learn through the firmware
+
+C/C++ and embedded firmware are my main coding-growth focus. I will first implement small pieces of embedded logic on the host, where I can inspect state and reproduce failures without a board. I will work through the [bounded-buffer and shared-fixture exercises](../learning/README.md#exercises-that-become-real-project-features) before integrating them into the ESP8266 bench experiments. I want to understand memory ownership, capacity limits, error paths and the reason for each interface.
+
+I will ask for hints and code review after my own attempt. I will not treat a module as understood until I can explain an edge case and change its behavior independently. Board-specific drivers can use established libraries with attribution; the learning goal does not require rewriting vendor code.
+
 ## Proposed modules
 
 | Module | Responsibility | First verification method |

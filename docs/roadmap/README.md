@@ -15,22 +15,33 @@ I know CAD, have basic electronics experience and am new to rocketry. I have an 
 
 **Current milestone: M0 — planning.** These milestones describe my intended work. No hardware, software, tests or flight results have been completed yet.
 
+## Coding is part of every milestone
+
+I will use the [coding learning track](../../learning/README.md) alongside this roadmap. My main coding priority is C/C++ embedded firmware, with Python supporting tests, replay and analysis. I will work on both from the beginning and give the embedded side the larger share of coding practice. A software milestone is not complete for me until I can explain the implementation, reproduce a useful failure and make a small change independently.
+
+| Project stage | Coding work I will practice |
+| --- | --- |
+| M0–M1 | C/C++ state and bounded-buffer basics alongside Python validation, collections, file I/O and a clear command-line interface |
+| M1–M2 | C/C++ data structures, bounded state, explicit errors and host tests before target integration |
+| M2–M3 | Shared fixtures, interface debugging, replay and refactoring without changing behavior |
+| M3 onward | Reproducible analysis, baseline comparisons and careful evaluation before AI |
+
 ## My first seven sessions
 
 I will use these as roughly one-hour starting blocks and carry unfinished work into the next session. They are a work order, not a promise that the design will be finished in one week.
 
-- [ ] **Session 1:** Read established model-rocketry fundamentals and record the terms and design questions I need to understand.
+- [ ] **Session 1:** Read a small section of model-rocketry fundamentals, then attempt tiny Python validation and C/C++ state exercises to identify where I need help.
 - [ ] **Session 2:** Find a suitable local club or experienced supervisor, and establish the requirements for the eventual launch location.
 - [ ] **Session 3:** Check the ESP8266 and Jetson variants and accessories, confirm borrowable sensors and a multimeter, and follow my reuse-first parts plan before considering purchases.
 - [ ] **Session 4:** Sketch the first rocket concept and identify what needs review before I commit to dimensions or components.
-- [ ] **Session 5:** Define the initial measurements, units and quality flags; draft one example data record.
-- [ ] **Session 6:** Outline the parser and replay behavior, including a missing-sample case.
-- [ ] **Session 7:** Review the hardware and software choices together, update the decision log and choose the next smallest build task.
+- [ ] **Session 5:** Define the initial measurements, units and quality flags; start a small C/C++ record or bounded-buffer function and check its state by hand.
+- [ ] **Session 6:** Check the C/C++ boundary cases and write a small Python validation or missing-record helper for the ground tool.
+- [ ] **Session 7:** Explain the code and hardware choices in my own words, make one small refactor, update the decision log and choose the next task.
 
 For the first phase, I will use the Canadian Association of Rocketry's [model-rocketry information](https://www.canadianrocketry.org/en/regulations/model-rocketry) and [affiliated-club directory](https://www.canadianrocketry.org/en/membership/affiliated-clubs) as starting references. I have not selected a club or launch location, and I still need to establish which requirements apply to the actual activity.
 
 ## My continuing cadence
 
-I will reserve regular sessions for physical design and electronics, regular sessions for firmware and ground software, and one review session to connect the evidence and update the journal. I will adjust the split to the current milestone while keeping both sides moving.
+I will reserve regular sessions for physical design and electronics, hands-on coding sessions for firmware and ground software, and one review session to connect the evidence and update the journal. I will adjust the split to the current milestone while keeping both sides moving.
 
 Wireless telemetry, a custom PCB and AI are extensions I will add when they solve a documented problem. The core project remains my physical model rocket, its instrumentation and the software that lets me inspect what happened.

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="280" viewBox="0 0 1400 280" role="img" aria-labelledby="t d">
+<title id="t">APOGEE — a solo model rocket and software project</title><desc id="d">A restrained typographic project title. In progress: planning and requirements. Model, code, build, measure.</desc>
+<rect width="1400" height="280" fill="#0D1117"/>
+<text x="50" y="44" font-family="Arial,Helvetica,sans-serif" fill="#E7B785" font-size="17" letter-spacing="3">SOLO PROJECT / IN PROGRESS</text>
+<text x="43" y="176" font-family="Arial,Helvetica,sans-serif" fill="#F1F0EB" font-size="128" font-weight="700" letter-spacing="-5">APOGEE</text>
+<path d="M50 212H1348" stroke="#303943"/>
+<text x="50" y="253" font-family="Arial,Helvetica,sans-serif" fill="#A5ADB6" font-size="20" letter-spacing="2">MODEL / CODE / BUILD / MEASURE</text>
+<text x="863" y="110" font-family="Arial,Helvetica,sans-serif" fill="#D8DFE4" font-size="24">MY MODEL ROCKET.</text>
+<text x="863" y="147" font-family="Arial,Helvetica,sans-serif" fill="#D8DFE4" font-size="24">MY CODING LAB.</text>
+<text x="863" y="253" font-family="Arial,Helvetica,sans-serif" fill="#E7B785" font-size="17" letter-spacing="1.6">PLANNING &amp; REQUIREMENTS</text>
+</svg>

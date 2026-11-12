@@ -4,10 +4,13 @@ I am starting **APOGEE**, a solo project to design and build my own instrumented
 
 I know CAD, have basic electronics experience that I want to improve, and am new to rocketry. I can dedicate at least one hour a day, so I am planning around a minimum of seven hours a week. My first phase combines rocketry fundamentals and local launch-club guidance with a physical concept, a sensor-data contract and a small replay tool. Simulation and bench testing are verification stages for the rocket I intend to build.
 
+I also want this project to improve my coding. I will write the core learning exercises myself, ask for hints and reviews, and keep evidence that I can explain and change the resulting code.
+
 ## Read in this order
 
 | Document | What I use it for |
 | --- | --- |
+| [Coding learning track](../learning/README.md) | Turn the software milestones into exercises I can implement and explain |
 | [Requirements](requirements/README.md) | Define the first version and its evidence |
 | [Architecture](architecture/README.md) | Keep subsystem responsibilities and interfaces clear |
 | [Roadmap](roadmap/README.md) | Choose the next milestone without promising a launch date |

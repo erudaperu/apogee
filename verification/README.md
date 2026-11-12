@@ -15,6 +15,7 @@ I want every visible project claim to have a matching artifact. This matrix star
 | V-09 | Analysis can be repeated on the same dataset | Dataset identifier, settings and report | Planned |
 | V-10 | Any AI candidate is compared with a simple baseline | Held-out evaluation and failure examples | Planned |
 | V-11 | The physical model matches its documented configuration | Design revisions, assembly record and review notes | Planned |
+| V-12 | I can explain and independently change a completed learning module | Learning journal entry, focused commit and a small change with checked behavior | Planned |
 
 ## My result template
 
@@ -29,6 +30,10 @@ Result: pass / fail / inconclusive
 Evidence links:
 Limitations and follow-up:
 ```
+
+## Learning evidence
+
+A passing check shows behavior for the cases tested. To show my own understanding, I will also explain the relevant data flow, preserve a failure I investigated and make a small independent change. I will record that alongside the [coding learning track](../learning/README.md), without presenting an exercise as completed hardware or a flight result.
 
 ## Before any field phase
 

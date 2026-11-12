@@ -6,6 +6,8 @@ My scope is a **physical model rocket with my own design and instrumentation**, 
 
 I know CAD, have basic electronics experience and have no rocketry experience yet. I will start by learning established model-rocketry practice and finding a local club or experienced supervisor before finalizing the physical design. My planned cadence is at least one hour a day, or seven hours a week.
 
+A second goal is to improve my programming through the build. I will prioritize C/C++ embedded-logic tasks and use Python alongside them for tests, ground tools and analysis. My [learning track](../../learning/README.md) keeps the work small enough to implement and understand myself.
+
 ## First-version requirements
 
 All requirements below are **planned**. None is claimed as implemented or verified.
@@ -22,6 +24,7 @@ All requirements below are **planned**. None is claimed as implemented or verifi
 | SW-01 | I can replay a recording without connected hardware. | Reproducible command and sample dataset |
 | SW-02 | I reject unsupported schemas and malformed records clearly. | Parser tests with expected failures |
 | ANA-01 | I compare any proposed AI method with a simple baseline. | Reproducible evaluation and failure examples |
+| LEARN-01 | I can explain, debug and independently modify the core learning code. | My attempt, review notes, a reproduced failure and a focused follow-up change |
 | DOC-01 | I distinguish planned features from completed work. | Build journal and verification matrix |
 
 ## Decisions I have not made
