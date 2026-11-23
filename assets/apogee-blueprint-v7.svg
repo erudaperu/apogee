@@ -1,49 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title description">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title description">
   <title id="title">APOGEE — conceptual model rocket and planned instrumentation</title>
   <desc id="description">An editable engineering illustration of a planned model rocket. The external elevation identifies its nose cone, airframe, fins, conceptual avionics bay and external commercial-motor interface. A separate planned data-flow diagram connects sensor acquisition, firmware and logging, ground replay, and offline analysis. Concept only, not to scale. No propulsion internals, dimensions, built hardware or flight performance are depicted.</desc>
   <defs>
     <radialGradient id="paper" cx="66%" cy="37%" r="83%">
-      <stop stop-color="#172d40"/>
-      <stop offset="0.56" stop-color="#102132"/>
-      <stop offset="1" stop-color="#0b1523"/>
+      <stop stop-color="#f4e8d6"/>
+      <stop offset="0.56" stop-color="#e8d7c1"/>
+      <stop offset="1" stop-color="#dac7b2"/>
     </radialGradient>
-    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#d8ece5" stop-opacity="0.05"/>
-      <stop offset="0.48" stop-color="#d8ece5" stop-opacity="0.01"/>
-      <stop offset="1" stop-color="#7de2ca" stop-opacity="0.085"/>
-    </linearGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8a7d71"/><stop offset=".19" stop-color="#cdbfac"/><stop offset=".36" stop-color="#fff8eb"/><stop offset=".56" stop-color="#e6dccc"/><stop offset=".91" stop-color="#afa08e"/><stop offset="1" stop-color="#817366"/></linearGradient>
     <pattern id="section-hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(-40)">
-      <path d="M0 0V12" stroke="#9fc7ca" stroke-opacity="0.31" stroke-width="1"/>
+      <path d="M0 0V12" stroke="#99552f" stroke-opacity="0.31" stroke-width="1"/>
     </pattern>
     <pattern id="light-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
-      <path d="M0 0V8" stroke="#7de2ca" stroke-opacity="0.28" stroke-width="1"/>
+      <path d="M0 0V8" stroke="#99552f" stroke-opacity="0.28" stroke-width="1"/>
     </pattern>
     <marker id="flow-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
-      <path d="M1 1L9 5L1 9" fill="none" stroke="#7de2ca" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#99552f" stroke-width="1.3" stroke-linejoin="round"/>
     </marker>
     <style>
-      .type{font-family:Arial,Helvetica,sans-serif;fill:#edf1e8}
+      .type{font-family:Arial,Helvetica,sans-serif;fill:#171310}
       .label{font-size:29px;letter-spacing:2.6px;font-weight:500}
-      .support{font-size:20px;letter-spacing:1.7px;fill:#92adbb}
-      .flow-caption{font-size:23px;letter-spacing:1px;fill:#b6cbd1}
-      .drawing{fill:none;stroke:#dceee8;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
-      .secondary{fill:none;stroke:#86a6b8;stroke-width:1.35;stroke-linejoin:round;stroke-linecap:round}
-      .accent{fill:none;stroke:#7de2ca;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
-      .guide{fill:none;stroke:#6c8c9f;stroke-width:1.35;stroke-linejoin:round;stroke-linecap:round}
-      .node{fill:#7de2ca}
+      .support{font-size:20px;letter-spacing:1.7px;fill:#3e352e}
+      .flow-caption{font-size:23px;letter-spacing:1px;fill:#3e352e}
+      .drawing{fill:none;stroke:#171310;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+      .secondary{fill:none;stroke:#3e352e;stroke-width:1.35;stroke-linejoin:round;stroke-linecap:round}
+      .accent{fill:none;stroke:#99552f;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+      .guide{fill:none;stroke:#5d5147;stroke-width:1.35;stroke-linejoin:round;stroke-linecap:round}
+      .node{fill:#99552f}
     </style>
   </defs>
 
   <rect width="1600" height="1000" fill="url(#paper)"/>
-  <path d="M35 65V35H65M1535 35H1565V65M1565 935V965H1535M65 965H35V935" fill="none" stroke="#466577" stroke-width="1.2"/>
+<image width="1600" height="1000" preserveAspectRatio="none" opacity="0.78" xlink:href="data:image/jpeg;base64,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"/>
+
+  <path d="M35 65V35H65M1535 35H1565V65M1565 935V965H1535M65 965H35V935" fill="none" stroke="#9b8774" stroke-width="1.2"/>
 
   <g id="masthead">
     <text class="type" x="66" y="128" font-size="100" font-weight="700" letter-spacing="-4">APOGEE</text>
     <text class="type" x="70" y="166" font-size="22" letter-spacing="2.2" fill-opacity="0.8">MODEL ROCKET / SOFTWARE + AVIONICS</text>
-    <path d="M1111 72H1530" stroke="#7de2ca" stroke-width="2"/>
+    <path d="M1111 72H1530" stroke="#99552f" stroke-width="2"/>
     <text class="type" x="1111" y="107" font-size="24" letter-spacing="1.9">CONCEPT / PLANNED</text>
     <text class="type support" x="1111" y="139">NOT TO SCALE</text>
-    <path d="M70 198H1530" stroke="#2e4c60" stroke-width="1"/>
+    <path d="M70 198H1530" stroke="#9b8774" stroke-width="1"/>
   </g>
 
   <!-- External side elevation only. The translucent avionics detail is a
@@ -77,10 +75,10 @@
     </g>
 
     <g id="conceptual-avionics-bay">
-      <rect x="967" y="368" width="207" height="84" rx="3" fill="#7de2ca" fill-opacity="0.05" stroke="#7de2ca" stroke-width="1.8" stroke-dasharray="8 5"/>
+      <rect x="967" y="368" width="207" height="84" rx="3" fill="#99552f" fill-opacity="0.05" stroke="#99552f" stroke-width="1.8" stroke-dasharray="8 5"/>
       <path class="accent" d="M978 363V355M1163 363V355M978 457V465M1163 457V465"/>
       <path class="secondary" d="M982 378H1158M982 442H1158M985 374V446M1155 374V446"/>
-      <rect x="995" y="382" width="145" height="56" rx="2" fill="#153943" stroke="#7de2ca" stroke-width="2"/>
+      <rect x="995" y="382" width="145" height="56" rx="2" fill="#d7c7b2" stroke="#99552f" stroke-width="2"/>
       <rect class="accent" x="1024" y="394" width="34" height="34"/>
       <rect class="accent" x="1084" y="390" width="22" height="17"/>
       <rect class="secondary" x="1117" y="390" width="14" height="12"/>
@@ -96,15 +94,15 @@
   <g id="elevation-callouts">
     <text class="type label" x="86" y="301">FINS</text>
     <path class="guide" d="M86 316H244L385 358"/>
-    <circle cx="385" cy="358" r="4" fill="#dceee8"/>
+    <circle cx="385" cy="358" r="4" fill="#171310"/>
 
     <text class="type label" x="724" y="278">AIRFRAME</text>
     <path class="guide" d="M724 293H858L887 359"/>
-    <circle cx="887" cy="359" r="4" fill="#dceee8"/>
+    <circle cx="887" cy="359" r="4" fill="#171310"/>
 
     <text class="type label" x="1246" y="257">NOSE CONE</text>
     <path class="guide" d="M1246 272H1357L1372 351"/>
-    <circle cx="1372" cy="351" r="4" fill="#dceee8"/>
+    <circle cx="1372" cy="351" r="4" fill="#171310"/>
 
     <text class="type label" x="1154" y="543">AVIONICS BAY</text>
     <text class="type support" x="1154" y="576">CONCEPTUAL PACKAGE</text>
@@ -115,14 +113,14 @@
     <text class="type label" x="72" y="633">MOTOR INTERFACE</text>
     <text class="type support" x="72" y="660">EXTERNAL ONLY</text>
     <path class="guide" d="M72 570H235L380 474"/>
-    <circle cx="380" cy="474" r="4" fill="#dceee8"/>
+    <circle cx="380" cy="474" r="4" fill="#171310"/>
   </g>
 
   <!-- The instrumentation schematic is a planned architecture, not a claim
        of implemented hardware, acquired signals, tested code, or flight data. -->
   <g id="planned-instrumentation">
-    <path d="M70 686H1530" stroke="#3d6072" stroke-width="1.3"/>
-    <path d="M70 686H404" stroke="#7de2ca" stroke-width="2.2"/>
+    <path d="M70 686H1530" stroke="#9b8774" stroke-width="1.3"/>
+    <path d="M70 686H404" stroke="#99552f" stroke-width="2.2"/>
     <text class="type" x="70" y="725" font-size="24" letter-spacing="2.4">PLANNED INSTRUMENTATION &amp; DATA FLOW</text>
     <path class="accent" d="M1043 455L1054 585V649H802V686" stroke-dasharray="7 8" opacity="0.64"/>
     <circle class="node" cx="802" cy="686" r="3.5"/>
@@ -163,9 +161,9 @@
         <rect class="drawing" width="164" height="94" rx="4"/>
         <path class="secondary" d="M0 18H164M98 29V65M17 78H148"/>
         <circle class="node" cx="11" cy="9" r="2"/>
-        <circle cx="20" cy="9" r="2" fill="#86a6b8"/>
+        <circle cx="20" cy="9" r="2" fill="#3e352e"/>
         <path class="accent" d="M17 33L25 40L17 47M34 47H66M17 59H78M112 32L137 47L112 62Z"/>
-        <circle cx="57" cy="78" r="4" fill="#7de2ca"/>
+        <circle cx="57" cy="78" r="4" fill="#99552f"/>
         <path class="accent" d="M17 78H57"/>
       </g>
       <text class="type flow-caption" y="205">PARSE + VISUALIZE</text>
